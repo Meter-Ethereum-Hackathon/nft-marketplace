@@ -13,7 +13,11 @@ require("@nomiclabs/hardhat-waffle");
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
+const fs = require("fs");
+//reference to private key
+const privateKey = fs.readFileSync(".secret").toString();
 const projectId = "43996abd00574da789e54f0dc7e9aec1";
+
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
@@ -24,10 +28,10 @@ module.exports = {
     },
     mumbai: {
       url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
-      accounts: [],
+      accounts: [privateKey],
     },
     mainnet: { url: `https://polygon-mainnet.infura.io/v3/${porjectId}` },
-    accounts: [],
+    accounts: [privateKey],
   },
   solidity: "0.8.4",
 };
