@@ -33,11 +33,20 @@ module.exports = {
     mainnet: { url: `https://polygon-mainnet.infura.io/v3/${porjectId}` },
     accounts: [privateKey],
   },
-  solidity: "0.8.4",
-  settings: {
-    optimizer: {
-      enabled: true,
-      runs: 200,
-    },
+  solidity: {
+    compilers: [
+      {
+        version: "0.5.8",
+      },
+      {
+        version: "0.8.4",
+        settings: {
+          optimizer: {
+            enabled: true,
+            runs: 200,
+          },
+        },
+      },
+    ],
   },
 };

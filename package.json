@@ -26,9 +26,12 @@
   "devDependencies": {
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
-    "prettier": "^2.6.0",
+    "prettier": "prettier --write 'contracts/**/*.sol'",
     "prettier-plugin-solidity": "^1.0.0-beta.19",
-    "solhint": "^3.3.7",
-    "solhint-plugin-prettier": "^0.0.5"
+    "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol",
+    "solhint-plugin-prettier": "^0.0.5",
+    "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"
+    
+    
   }
 }
