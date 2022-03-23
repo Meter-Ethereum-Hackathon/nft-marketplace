@@ -17,7 +17,7 @@
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.6.1",
     "hardhat": "^2.9.1",
-    "ipfs-http-client": "^56.0.1",
+    "ipfs-http-client": "^50.1.2",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -29,9 +29,6 @@
     "prettier": "prettier --write 'contracts/**/*.sol'",
     "prettier-plugin-solidity": "^1.0.0-beta.19",
     "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol",
-    "solhint-plugin-prettier": "^0.0.5",
-    "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"
-    
-    
+    "solhint-plugin-prettier": "^0.0.5"
   }
 }
