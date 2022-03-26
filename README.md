@@ -34,7 +34,7 @@ npm install
 yarn
 
 ```
-# Configuration
+# Configurations
 Hardhat chain ID: 1337
 If you see a compatibility issue between solidity pragma version with semver requirement, add the following to solhint.json
 
