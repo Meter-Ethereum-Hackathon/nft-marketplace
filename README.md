@@ -36,7 +36,7 @@ yarn
 ```
 # Configurations
 Hardhat chain ID: 1337
-If you see a compatibility issue between solidity pragma version with semver requirement, add the following to solhint.json
+If you see a compatibility issue between solidity pragma version with semver requirement, add the following to solhint.json (this project uses pragma 0.8.4)
 
 ```JSON
 "compiler-version": ["error", "^0.8.4"] 
