@@ -11,7 +11,7 @@ import "hardhat/console.sol";
 
  /**inheriting form ERC721URIStorage*/
 /**for every listing a listing fee is charged,owner of the contract gets commission on every transaction */
-contract NFTMarketplace is ERC721URIStorage {
+contract NFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     Counters.Counter private _itemsSold;

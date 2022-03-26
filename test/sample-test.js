@@ -2,7 +2,7 @@
 describe("NFTMarket", function () {
   it("Should create and execute market sales", async function () {
     /* deploy the marketplace */
-    const NFTMarketplace = await ethers.getContractFactory("NFTMarketplace");
+    const NFTMarketplace = await ethers.getContractFactory("NFT");
     const nftMarketplace = await NFTMarketplace.deploy();
     await nftMarketplace.deployed();
 
