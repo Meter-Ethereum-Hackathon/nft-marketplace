@@ -36,7 +36,7 @@ yarn
 ```
 # Configurations
 Hardhat chain ID: 1337
-If you see a compatibility issue between solidity pragma version with semver requirement, add the following to solhint.json (this project uses pragma 0.8.4)
+If you see a compiler error about solidity version being incompatible with semver requirement, add the following to solhint.json (this project uses solidity 0.8.4)
 
 ```JSON
 "compiler-version": ["error", "^0.8.4"] 
@@ -103,7 +103,7 @@ module.exports = {
 # Versions
 node version 16.14.0
 npm version 8.3.1
-solidity pragma 0.8.4
+solidity version 0.8.4
 
 # Testing
 A sample test file, sample-test.js in the "test" directory, is written to test the contract. To run the sample test, run
