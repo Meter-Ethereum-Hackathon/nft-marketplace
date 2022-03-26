@@ -36,7 +36,7 @@ yarn
 ```
 # Configurations
 Hardhat chain ID: 1337
-If you see a compiler error about solidity version being incompatible with semver requirement, add the following to solhint.json (this project uses solidity 0.8.4)
+If you see a error on incompatible compiler versions between solidity version and the semver requirement, add the following to solhint.json (this project uses solidity 0.8.4)
 
 ```JSON
 "compiler-version": ["error", "^0.8.4"] 
