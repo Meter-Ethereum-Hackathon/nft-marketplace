@@ -39,7 +39,7 @@ Hardhat chain ID: 1337
 If you see a compatibility issue between solidity pragma version with semver requirement, add the following to solhint.json
 
 ```JSON
-"compiler-version": ["error", "^0.8.4"] to sol
+"compiler-version": ["error", "^0.8.4"] 
 
 ```
 
