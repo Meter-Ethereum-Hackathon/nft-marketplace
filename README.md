@@ -43,7 +43,7 @@ If you see a compatibility issue between solidity pragma version with semver req
 
 ```
 
-hardhat configuration:
+## Hardhat Configuration:
 
 Note that to deploy to Polygon test or main networks, you should update configurations in the hardhat.config.js to use a private key. 
 
