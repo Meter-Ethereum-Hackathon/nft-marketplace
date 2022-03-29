@@ -1,7 +1,7 @@
 # Solidity Contract - NFT.sol
 
 This contract uses OpenZepplin ERC721 standard, developed with Hardhat.
-The contract contains standard functions, namely minting tokens, updating listing price, creating sale, reslling tokens, transferring ownership of token, returning unsold market items, returning purchased items for users, returning only listed items for users. 
+The contract contains standard functions, namely minting tokens, updating listing price, creating sale, reselling tokens, transferring ownership of token, returning unsold market items, returning purchased items for users, returning only listed items for users. 
 
 # Hardhat Solidity Development Environment 
 
