@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
           />
 
           <span className="font-semibold pl-3 drop-shadow-md first-letter:text-4xl text-l tracking-tight ">
-            MILKY WAY
+            MILKY WAYY
           </span>
         </div>
         <div className="block lg:hidden">
