@@ -29,6 +29,7 @@
     "prettier": "prettier --write 'contracts/**/*.sol'",
     "prettier-plugin-solidity": "^1.0.0-beta.19",
     "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol",
-    "solhint-plugin-prettier": "^0.0.5"
+    "solhint-plugin-prettier": "^0.0.5",
+    "tailwindcss": "^3.0.23"
   }
 }
