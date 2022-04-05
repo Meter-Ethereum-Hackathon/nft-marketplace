@@ -961,5 +961,5 @@ module.exports = {
     "disabled",
   ],
 
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
